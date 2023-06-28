@@ -1,0 +1,458 @@
+body{
+   margin: 0;
+ 
+width: 120rem;
+height: 260rem; 
+overflow-x: hidden;
+ }
+ header{
+   z-index: 2;
+ }
+.header_wr{
+   width: 112.5rem;
+   height: 6.875rem; 
+border-radius: 0px 0px 30px 30px;
+background: #1F1F1F;
+backdrop-filter: blur(7.5px); 
+margin-left: auto;
+margin-right: auto;
+ 
+ 
+ 
+}
+.header_items{
+   display: flex;
+ 
+ margin-left: 150px;
+ 
+
+   
+ 
+}
+
+
+.item{
+   margin-left: 130px;
+ margin-top: auto;
+ margin-bottom: auto;
+}
+#logo p{
+   color: #FFF;
+font-size: 2rem;
+font-family: Montserrat;
+font-weight: 700; 
+}
+
+.black_white{
+   width: 521px;
+   height: 41px; 
+ 
+ 
+}
+ 
+.black_white_items{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  
+ 
+}
+ 
+.black{
+ 
+ margin-left: 20px;
+}
+.white{
+   margin-left: 20px;
+}
+ 
+#avatar img{
+   width: 4.375rem;
+height: 4.375rem;
+ 
+border-radius: 35px;
+background:  lightgray 50% / cover no-repeat;
+ 
+}
+
+#language{
+   width: 6.25rem;
+height: 4.0625rem; 
+ 
+}
+.bot{
+   width: 6.25rem;
+   height: 0.52594rem;  
+   border-radius: 0px 0px 3px 3px;
+background: #E6242C;
+}
+.mid{
+   width: 6.25rem;
+height: 2.94456rem;
+flex-shrink: 0;
+display: flex;
+background: #FBFBFB;
+justify-content: center;
+
+}
+.mid p{
+   display: flex;
+   width: 1.8125rem;
+   height: 1.70406rem;
+   flex-direction: column;
+   flex-shrink: 0;
+   color: #000;
+font-size: 1.25rem;
+font-family: Noto Sans;
+font-weight: 700;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+.mid img{
+   margin-top: auto;
+   margin-bottom: auto;
+   width: 1.5625rem;
+height: 1.57781rem;
+ 
+}
+.top{
+   width: 6.25rem;
+height: 0.99931rem;
+flex-shrink: 0;
+border-radius: 7.917px 7.917px 0px 0px;
+background: #E7252C;
+}
+
+
+.subscribe_wrap{
+   z-index: 1;
+   width: 1920px;
+   height: 1080px;
+ background-image:url("int/фонподписки.jpg") ;
+}
+.offer{
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-left: 240px;
+ 
+   height: 1000px;
+   width: 600px;
+   border: 1px solid #ffffff;
+ text-align: center;
+
+ color: #000;
+text-align: center;
+font-size: 80px;
+font-family: Montserrat;
+font-weight: 300;
+}
+.text{
+   margin-top: 330px;
+ 
+}
+.offer label{
+   color: #000;
+   font-size: 80px;
+   font-family: Montserrat;
+   font-weight: 900;
+ 
+}
+.offer button{
+   width: 400px;
+height: 100px;
+flex-shrink: 0;
+border-radius: 15px;
+background: #000;
+color: aliceblue;
+color: #FFF;
+font-size: 32px;
+font-family: Montserrat;
+font-weight: 900;
+}
+button:hover{
+ scale: 105%;
+}
+
+.toptracks_wrap{
+   width: 1920;
+   height: 1080px;
+ 
+}
+.toptracks_wrap label{
+ 
+   color: #000;
+   font-size: 96px;
+   font-family: Montserrat;
+   font-weight: 900; 
+}
+.toptrack_form{
+   margin-top: 200px;
+   display: flex;
+   flex-wrap: wrap;
+ 
+margin-left: 450px;
+   width: 1200px;
+   height: 600px;
+ 
+}
+
+.toptrack_item{
+   margin-left: 50px;
+   width: 400px;
+height: 100px;
+display: flex;
+ 
+flex-shrink: 0;
+border-radius: 10px;
+border: 3px solid #000;
+background: #FFF;
+}
+.toptrack_item:hover{
+ scale: 105%;
+}
+.info{
+    margin-left: 10px;
+   
+  
+}
+.info h3{
+   color: #000;
+font-size: 20px;
+font-family: Montserrat;
+font-weight: 700;
+
+}
+.info p{
+   
+   color: #000;
+   font-size: 20px;
+   font-family: Montserrat;
+   font-weight: 300;
+
+}
+
+
+.top_albums_wrap{
+   width: 1920;
+   height: 1080px;
+   
+   background: url("int/image 15.png"),
+    rgb(37, 37, 37) 0px 0px / 104.167% 117.593% 
+    no-repeat;
+   
+}
+.top_albums_wrap label{
+ 
+   color: #000;
+   font-size: 96px;
+   font-family: Montserrat;
+   font-weight: 900; 
+}
+.pic_ram{
+   width: 320px;
+   height: 320px;
+   border-radius: 10px;
+   border: 5px solid #EAC817;
+ 
+}
+#n1{
+   width: 320px;
+   height: 320px;
+   border-radius: 10px;
+   border: 5px solid #EAC817; 
+   margin-left: auto;
+   margin-right: auto;
+}
+#n2{
+   width: 320px;
+   height: 320px;
+   border-radius: 10px;
+   border: 5px solid #D4D4D4;
+   margin-left: auto;
+   margin-right: auto;
+ 
+}
+#n3{
+   width: 320px;
+   height: 320px;
+   border-radius: 10px;
+   border: 5px solid #763E0A;
+   margin-left: auto;
+   margin-right: auto;
+}
+ 
+.top_alb_item{
+   margin-left: 80px;
+   width: 400px;
+   height: 500px;
+   border-radius: 10px;
+ 
+  
+ 
+ 
+}
+.top_alb_item:hover{
+  scale: 105%;
+ 
+}
+.alb_info h3{
+   color: #FFF;
+font-size: 32px;
+font-family: Montserrat;
+font-weight: 700;
+}
+.alb_info p{
+   color: #FFF;
+   font-size: 32px;
+   font-family: Montserrat;
+   font-weight: 300;
+}
+
+.top_album_form{
+   margin-top: 200px;
+   margin-left: 200px;
+   display: flex;
+   flex-wrap: wrap;
+   text-align: center;
+
+}
+
+.topartist{
+   width: 1920px;
+   height: 600px;
+ 
+}
+
+
+.top_artist_catalog{
+   margin-top: 180px;
+   width: 1920px;
+   height: 180px;
+  
+   justify-content: center;
+}
+
+
+.topartist label{
+ 
+   color: #1F1F1F;
+   font-size: 96px;
+   font-family: Montserrat;
+   font-weight: 900;
+}
+.top_artist_catalog{
+   display: flex;
+   flex-wrap: wrap;
+}
+.top_artist_catalog_item {
+   width: 200px;
+   height: 220px;
+    margin-left: 60px;
+   text-align: center;
+}
+.top_artist_catalog_item  img{
+   width: 200px;
+   border-radius: 120px;
+    
+}
+.title h2{
+   color: #000;
+font-size: 20px;
+font-family: Montserrat;
+font-weight: 350;
+
+}
+
+/* Подвал сайта */
+ 
+.footer_content{
+    
+   display: flex;
+  
+}
+.footer{
+   width: 1500px;
+   height: 300px;
+    
+   margin-top: auto;
+   margin-left:auto ;
+   margin-right:auto ;
+
+   background: #000000;
+   border-radius: 50px 50px 0px 0px;
+}
+
+.footer_content{
+
+   margin-left:100px;
+
+}
+.razdeli{
+   width: fit-content;
+   height: fit-content;
+   margin-top: 60px;
+   margin-left: 200px;
+   font-size: 12px;
+   font-family: Montserrat;
+   font-weight: 700; 
+   color: #ffffff;
+}
+.rearch_result_wrap{
+   margin-left: 200px;
+   width: 730px;
+   height: 600px;
+   display:flex;
+    flex-wrap: wrap;
+  
+}
+
+
+
+
+/* СТРАНИЦА ТРЕКА */
+
+
+.track_form{
+  
+   margin-top: 200px;
+ 
+  
+margin-left: auto;
+margin-right: auto;
+   width: fit-content;
+   height: content;
+   
+}
+.track_item{
+   margin-left: 50px;
+   width: 600px;
+height: 300px;
+display: flex;
+ 
+flex-shrink: 0;
+border-radius: 10px;
+ 
+background: #FFF;
+}
+
+.audio_col{
+   margin-top: 50px;
+   width: fit-content;
+   height: fit-content;
+   margin-left: auto;
+   margin-right: auto;
+   align-items: center;
+}
+
+#icon{
+   width: 120px;
+   cursor: pointer;
+ 
+   
+ 
+}
+
+a{
+   text-decoration: none;
+}
