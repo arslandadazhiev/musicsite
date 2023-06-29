@@ -9,3 +9,6 @@
 
 Страница прослушивания:
 ![изображение](https://github.com/arslandadazhiev/musicsite/assets/105152183/940d0563-4f8f-4ca6-bb1e-b47b2050b04c)
+
+
+![изображение](https://github.com/arslandadazhiev/musicsite/assets/105152183/dc7a0c1c-70b5-4631-9ac0-a7d6f30001d0)
